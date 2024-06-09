@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0"> 
+  
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
+  
+    <!-- For font family Poppins -->
+    <link rel="preconnect" 
+          href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" 
+          href="https://fonts.gstatic.com" crossorigin> 
+    <link href= 
+"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" 
+          rel="stylesheet"> 
+    <title>Responsive Services Section</title> 
+    <style> 
+        * { 
+            box-sizing: border-box; 
+        } 
+  
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-image: url( 
+https://img.freepik.com/premium-vector/internet-connection_41981-141.jpg); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-color: rgb(90, 90, 90); 
+            background-blend-mode: multiply; 
+            background-position: center; 
+            color: #fff; 
+        } 
+  
+        h1, 
+        h3 { 
+            text-align: center; 
+            text-transform: uppercase; 
+        } 
+  
+        h1 { 
+            position: relative; 
+            max-width: max-content; 
+            margin: 2rem auto 5rem auto; 
+        } 
+  
+        h1::after { 
+            content: ""; 
+            position: absolute; 
+            width: 75%; 
+            height: 5px; 
+            background-color: lightgreen; 
+            bottom: -2rem; 
+            left: 25px; 
+        } 
+  
+        i { 
+            font-size: 3rem; 
+            color: lightgreen; 
+            padding: 1rem; 
+            transition: all 0.3s linear; 
+            transform: rotate(-45deg); 
+        } 
+  
+        .services-container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: space-around; 
+        } 
+  
+        .service-card { 
+            cursor: pointer; 
+            width: 300px; 
+            margin: 20px; 
+            padding: 2rem 20px 20px 20px; 
+            text-align: center; 
+            border-radius: 5px; 
+            transition: all 0.3s ease-in-out; 
+        } 
+  
+        .icon-container { 
+            border: 2px solid lightgreen; 
+            transition: 0.3s linear; 
+            width: max-content; 
+            margin: 0 auto; 
+            transform: rotate(45deg); 
+        } 
+  
+        .service-card:hover { 
+            box-shadow: 0 0 30px 0 lightgreen; 
+            transform: scale(1.1); 
+        } 
+  
+        .service-card a { 
+            color: lightgreen; 
+            text-decoration: none; 
+        } 
+  
+        @media (max-width: 768px) { 
+            .service-card { 
+                width: 100%; 
+            } 
+        } 
+        h1:hover
+        {
+            color: yellowgreen;
+            transition: 01s;
+        }
+    </style> 
+</head> 
+  
+<body> 
+    <h1>Our Services</h1> 
+    <div class="services-container"> 
+        <div class="service-card"> 
+            <div class="icon-container"> 
+                <i class="fa-solid fa-user"></i> 
+            </div> 
+            <h3>24 hrs/ customer support</h3> 
+            <p> 
+         Welcome to Programing From Home 24-Hour Customer Support!
+
+At our company, we understand that your needs don't adhere to a 9-to-5 schedule, and neither do we. Our dedicated team of customer support professionals is available around the clock, ready to assist you anytime, day or night.
+
+Thank you for choosing us. Your satisfaction is our top priority.</p> 
+            
+        </div> 
+  
+        <div class="service-card"> 
+            <div class="icon-container"> 
+                <i class="fa-solid fa-cart-shopping"></i> 
+            </div> 
+            <h3>DIGITAL MARKETING</h3> 
+            <p> Welcome to Programing from home
+In the fast-paced world of digital marketing, we know that your business operates around the clock, and so do we. At [Your Company Name], our commitment to your success means providing you with unwavering support whenever you need it. Our expert team is available 24/7 to address your questions, resolve issues, and guide you through our digital marketing solutions..</p> 
+            
+        </div> 
+  
+        <div class="service-card"> 
+            <div class="icon-container"> 
+                <i class="fa-solid fa-toolbox"></i> 
+            </div> 
+            <h3>Website</h3> 
+            <p> 
+                Whether you're just starting out, customizing advanced features, or troubleshooting technical issues, our friendly and knowledgeable professionals are ready to help. We provide prompt, effective, and personalized support to ensure your website meets your vision and functions flawlessly.
+
+Thank you for choosing us. Your online success is our top priority
+
+.</p> 
+           
+        </div> 
+  
+        <div class="service-card"> 
+            <div class="icon-container"> 
+                <i class="fa-brands fa-android"></i> 
+            </div> 
+            <h3>App / Game </h3> 
+            <p> 
+               Whether you’re in the planning stages, navigating development, customizing features, or addressing technical issues, our experienced and friendly support professionals are here to help. We offer prompt, effective, and personalized support to ensure your app building experience is smooth and successful.
+
+Thank you for choosing us. Your app’s success is our mission.</p> 
+           
+        </div> 
+  
+        <div class="service-card"> 
+            <div class="icon-container"> 
+                <i class="fa-solid fa-database"></i> 
+            </div> 
+            <h3>Problem Fixing</h3> 
+            <p> 
+              Whether you're facing technical difficulties, encountering unexpected errors, or need guidance to overcome a challenge, our knowledgeable and friendly professionals are here to help. We pride ourselves on providing prompt, efficient, and personalized solutions to ensure your experience with Programing From Home remains seamless and stress-free.
+
+Thank you for choosing us. Your satisfaction and smooth operation are our top priorities.</p> 
+            
+        </div> 
+  
+        
+    </div> 
+</body> 
+  
+</html>
